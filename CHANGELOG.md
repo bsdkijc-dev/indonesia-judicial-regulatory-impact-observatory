@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.19.0 (2026-11-24) — Cluster 17 Ex-Post RIA (`PERMA 2/2012` Misdemeanor Thresholds / Tipiring)
+- Added Cluster 17 (`PERMA_2012_02`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_161`–`RIA_170`), `OPTION C — AMEND` recommendation (`REC_017`), and `evaluations/perma_2012_02/evaluation_report.md`.
+- Added 4 verified Level 3 sources (`SRC_063`–`SRC_066`) covering the 2012 MAHKUMJAKPOL MoU, Pid.C jurisprudence, and UU 1/2023 KUHP coherence.
+
 ## v1.18.0 (2026-11-24) — Cluster 16 Ex-Post RIA (`PERMA 6/2018` Administrative Remedies)
 - Added Cluster 16 (`PERMA_2018_06`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_151`–`RIA_160`), `COH_039`, `OPTION B` recommendation (`REC_016`), and `evaluations/perma_2018_06/evaluation_report.md`.
 - Added 4 verified Level 2–3 sources (`SRC_059`–`SRC_062`), including PTUN Kupang portal, PTUN Samarinda analysis of SEMA 10/2020 & SEMA 5/2021, UNDIP JPHI, and Locopath (Jan 2026).
