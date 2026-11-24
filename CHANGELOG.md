@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.11.0 (2026-11-24) — Cluster 9 Ex-Post RIA (`PERMA 1/2002` Class Action)
+- Added Cluster 9 (`PERMA_2002_01`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_081`–`RIA_090`), `OPTION C — AMEND` recommendation (`REC_009`), and `evaluations/perma_2002_01/evaluation_report.md`.
+- Added 4 verified Level 2–3 sources (`SRC_032`–`SRC_035`), including Badilum Service Standards, Jurnal Hukum dan Peradilan (MA RI), Ranah Research (2024), and Jurnal Seikat (Oct 2026).
+
 ## v1.10.0 (2026-11-24) — Cluster 8 Ex-Post RIA (`PERMA 1/2023` Environmental Adjudication)
 - Added Cluster 8 (`PERMA_2023_01`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_071`–`RIA_080`), `COH_035`, `OPTION B` recommendation (`REC_008`), and `evaluations/perma_2023_01/evaluation_report.md`.
 - Added 5 verified Level 1–3 sources (`SRC_027`–`SRC_031`), including MA–ICEL socialization, Dandapala SIPP guide, JHLI (2025), JLASS (2026), and Putusan MK 119/PUU-XXIII/2025.
