@@ -1,2 +1,2 @@
 record_id,check_type,details
-ALL,PASS,Validated 54 records with 0 errors
+ALL,PASS,Validated 57 registry records + status & coherence tables with 0 errors
