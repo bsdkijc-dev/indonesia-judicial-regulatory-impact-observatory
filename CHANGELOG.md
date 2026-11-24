@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.14.0 (2026-11-24) — Cluster 12 Ex-Post RIA (`PERMA 2/2019` Government Tort / PTUN)
+- Added Cluster 12 (`PERMA_2019_02`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_111`–`RIA_120`), `COH_036`, `OPTION C — AMEND` recommendation (`REC_012`), and `evaluations/perma_2019_02/evaluation_report.md`.
+- Added 4 verified Level 3 sources (`SRC_043`–`SRC_046`) covering PN–PTUN OOD dualism, Pasal 4 90-day deadline friction, PTUN TF jurisprudence, and damage-execution bottlenecks.
+
 ## v1.13.0 (2026-11-24) — Cluster 11 Ex-Post RIA (`PERMA 2/2025` Disability Access)
 - Added Cluster 11 (`PERMA_2025_02`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_101`–`RIA_110`), `OPTION A — RETAIN` recommendation (`REC_011`), and `evaluations/perma_2025_02/evaluation_report.md`.
 - Backfilled `PERMA_2025_02` promulgation date (`2025-10-20`) and `BN 2025 (844)` in `perma_registry.csv` & `.jsonl`, and added 3 verified Level 2–3 sources (`SRC_040`–`SRC_042`).
