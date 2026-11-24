@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.18.0 (2026-11-24) — Cluster 16 Ex-Post RIA (`PERMA 6/2018` Administrative Remedies)
+- Added Cluster 16 (`PERMA_2018_06`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_151`–`RIA_160`), `COH_039`, `OPTION B` recommendation (`REC_016`), and `evaluations/perma_2018_06/evaluation_report.md`.
+- Added 4 verified Level 2–3 sources (`SRC_059`–`SRC_062`), including PTUN Kupang portal, PTUN Samarinda analysis of SEMA 10/2020 & SEMA 5/2021, UNDIP JPHI, and Locopath (Jan 2026).
+
 ## v1.17.0 (2026-11-24) — Cluster 15 Ex-Post RIA (`PERMA 4/2014` Juvenile Diversion)
 - Added Cluster 15 (`PERMA_2014_04`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_141`–`RIA_150`), `OPTION B` recommendation (`REC_015`), and `evaluations/perma_2014_04/evaluation_report.md`.
 - Added 4 verified Level 2–3 sources (`SRC_055`–`SRC_058`), including PN Kayuagung LKJIP 2025, AJSH empirical non-stigmatization audit (18 files, 48 news articles, 12 interviews), STIH-PGL (2026), and PN Palopo.
