@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.15.0 (2026-11-24) — Cluster 13 Ex-Post RIA (`PERMA 2/2011` Public Information Disputes)
+- Added Cluster 13 (`PERMA_2011_02`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_121`–`RIA_130`), `COH_037`, `OPTION B` recommendation (`REC_013`), and `evaluations/perma_2011_02/evaluation_report.md`.
+- Added 4 verified Level 1–3 sources (`SRC_047`–`SRC_050`), including 2026 PTUN Jakarta decision `4/G/KI/2026/PTUN.JKT`, PTUN Samarinda portal, KI Pusat compilation, and UMSU ODR study.
+
 ## v1.14.0 (2026-11-24) — Cluster 12 Ex-Post RIA (`PERMA 2/2019` Government Tort / PTUN)
 - Added Cluster 12 (`PERMA_2019_02`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_111`–`RIA_120`), `COH_036`, `OPTION C — AMEND` recommendation (`REC_012`), and `evaluations/perma_2019_02/evaluation_report.md`.
 - Added 4 verified Level 3 sources (`SRC_043`–`SRC_046`) covering PN–PTUN OOD dualism, Pasal 4 90-day deadline friction, PTUN TF jurisprudence, and damage-execution bottlenecks.
