@@ -1,8 +1,8 @@
 # Changelog
 
-## v1.0.0 (2026-11-24) — Public Release & Stage 13 Annual Monitoring
-- Human-authorized public release of Kaggle dataset (`isPrivate: false`) and GitHub repository.
-- Added Stage 13 Annual Update & Monitoring Protocol and `scripts/annual_monitoring_check.py`.
+## v1.1.0 (2026-11-24) — Pre-2008 Archival PERMA Expansion (1980–2025)
+- Expanded `perma_registry.csv` & `.jsonl` from 57 to 67 records, adding 5 pre-2008 archival PERMA (1980, 1990, 2002, 2003, 2008) and 5 additional 2009–2024 Level-1 BPK PERMA.
+- Added 4 coherence assessments to `legal_coherence.csv` (24 total).
 
-## v1.0.0-rc1 (2026-11-24) — Stage 9–12 Notebooks, QA Audit & Release Candidate
-- Built and tested 3 reproducible Jupyter notebooks, Kaggle Data Dictionary, Annual Observatory Report, and full-suite QA.
+## v1.0.0 (2026-11-24) — Public Release & Stage 13 Annual Monitoring
+- Human-authorized public release (`isPrivate: false`) and Stage 13 monitoring setup.
