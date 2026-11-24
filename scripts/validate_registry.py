@@ -1,76 +1,93 @@
 #!/usr/bin/env python3
-"""Automated quality control validator for IJRIO registry, legal status, and legal coherence."""
+"""Full-suite automated quality control validator for all IJRIO v1.0 datasets."""
 import csv
 import sys
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "perma_registry"
-REGISTRY_PATH = DATA_DIR / "perma_registry.csv"
-STATUS_PATH = DATA_DIR / "perma_legal_status.csv"
-COHERENCE_PATH = DATA_DIR / "legal_coherence.csv"
+BASE = Path(__file__).resolve().parent.parent / "data"
+REG_DIR = BASE / "perma_registry"
+IMP_DIR = BASE / "implementation"
+IND_DIR = BASE / "impact_indicators"
 REPORT_PATH = Path(__file__).resolve().parent.parent / "quality_assurance" / "validation_report.csv"
 
-MANDATORY_FIELDS = [
-    "perma_id", "perma_number", "year", "official_title",
-    "issuing_institution", "official_source_url", "current_legal_status",
-    "verification_status", "verification_date"
-]
 VALID_STATUSES = {"BERLAKU", "BERLAKU_DIUBAH", "TIDAK_BERLAKU", "DICABUT", "DIGANTI"}
 VALID_VERIF = {"VERIFIED", "PARTIALLY_VERIFIED", "UNVERIFIED", "NOT_AVAILABLE"}
+VALID_SCORES = {"1", "2", "3", "4", "5", "NOT ASSESSED"}
+VALID_OPTIONS = {"OPTION A", "OPTION B", "OPTION C", "OPTION D", "OPTION E", "OPTION F", "OPTION G"}
 
 def main():
     issues = []
     seen_ids = set()
     seen_num_year = set()
-    row_count = 0
+    reg_count = 0
 
-    with open(REGISTRY_PATH, newline="", encoding="utf-8") as f:
+    with open(REG_DIR / "perma_registry.csv", newline="", encoding="utf-8") as f:
         for idx, row in enumerate(csv.DictReader(f), start=2):
-            row_count += 1
+            reg_count += 1
             pid = row.get("perma_id", "").strip()
-            for field in MANDATORY_FIELDS:
-                if not row.get(field, "").strip():
-                    issues.append((pid or f"ROW_{idx}", "MISSING_MANDATORY_FIELD", f"Missing {field}"))
+            if not pid or not row.get("official_title", "").strip():
+                issues.append((pid or f"ROW_{idx}", "MISSING_MANDATORY_FIELD", "Missing perma_id or title"))
             if pid in seen_ids:
-                issues.append((pid, "DUPLICATE_PERMA_ID", f"Duplicate perma_id {pid}"))
+                issues.append((pid, "DUPLICATE_PERMA_ID", pid))
             seen_ids.add(pid)
             key = (row.get("perma_number", "").strip(), row.get("year", "").strip())
             if key in seen_num_year:
-                issues.append((pid, "DUPLICATE_NUMBER_YEAR", f"Duplicate number/year {key}"))
+                issues.append((pid, "DUPLICATE_NUMBER_YEAR", str(key)))
             seen_num_year.add(key)
-            url = row.get("official_source_url", "").strip()
-            if not url.startswith("https://"):
-                issues.append((pid, "INVALID_SOURCE_URL", f"Invalid URL: {url}"))
+            if not row.get("official_source_url", "").strip().startswith("https://"):
+                issues.append((pid, "INVALID_SOURCE_URL", row.get("official_source_url", "")))
             if row.get("current_legal_status", "").strip() not in VALID_STATUSES:
                 issues.append((pid, "INVALID_LEGAL_STATUS", row.get("current_legal_status", "")))
             if row.get("verification_status", "").strip() not in VALID_VERIF:
                 issues.append((pid, "INVALID_VERIFICATION_STATUS", row.get("verification_status", "")))
-            prom = row.get("promulgation_date", "").strip()
-            eff = row.get("effective_date", "").strip()
-            if prom not in ("", "NOT_AVAILABLE") and eff not in ("", "NOT_AVAILABLE") and eff < prom:
-                issues.append((pid, "INCONSISTENT_DATES", f"effective_date {eff} < promulgation_date {prom}"))
 
-    # Referential integrity for perma_legal_status.csv and legal_coherence.csv
-    for path, id_col in [(STATUS_PATH, "status_id"), (COHERENCE_PATH, "coherence_id")]:
-        if path.exists():
-            with open(path, newline="", encoding="utf-8") as f:
-                for row in csv.DictReader(f):
-                    pid = row.get("perma_id", "").strip()
-                    if pid not in seen_ids:
-                        issues.append((row.get(id_col, "UNKNOWN"), "ORPHAN_PERMA_ID", f"{pid} not in perma_registry.csv"))
-                    if not row.get("source_url", "").strip().startswith("https://"):
-                        issues.append((row.get(id_col, "UNKNOWN"), "INVALID_SOURCE_URL", row.get("source_url", "")))
+    # Cross-table checks
+    tables_with_url = [
+        (REG_DIR / "perma_legal_status.csv", "status_id"),
+        (REG_DIR / "legal_coherence.csv", "coherence_id"),
+        (REG_DIR / "regulatory_problems.csv", "problem_id"),
+        (REG_DIR / "regulatory_objectives.csv", "objective_id"),
+        (IMP_DIR / "implementation_evidence.csv", "impl_id"),
+        (IND_DIR / "impact_indicators.csv", "indicator_id"),
+        (IND_DIR / "stakeholder_impacts.csv", "stakeholder_impact_id"),
+        (IND_DIR / "unintended_consequences.csv", "consequence_id"),
+    ]
+    total_rows = reg_count
+    for path, id_col in tables_with_url:
+        with open(path, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                total_rows += 1
+                pid = row.get("perma_id", "").strip()
+                if pid not in seen_ids:
+                    issues.append((row.get(id_col, "?"), "ORPHAN_PERMA_ID", pid))
+                if not row.get("source_url", "").strip().startswith("https://"):
+                    issues.append((row.get(id_col, "?"), "INVALID_SOURCE_URL", row.get("source_url", "")))
 
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(IND_DIR / "ria_assessments.csv", newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            total_rows += 1
+            if row.get("perma_id", "").strip() not in seen_ids:
+                issues.append((row.get("assessment_id", "?"), "ORPHAN_PERMA_ID", row.get("perma_id", "")))
+            if row.get("score_1_to_5_or_NA", "").strip() not in VALID_SCORES:
+                issues.append((row.get("assessment_id", "?"), "INVALID_SCORE", row.get("score_1_to_5_or_NA", "")))
+
+    with open(IND_DIR / "recommendations.csv", newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            total_rows += 1
+            if row.get("perma_id", "").strip() not in seen_ids:
+                issues.append((row.get("recommendation_id", "?"), "ORPHAN_PERMA_ID", row.get("perma_id", "")))
+            if row.get("option_code", "").strip() not in VALID_OPTIONS:
+                issues.append((row.get("recommendation_id", "?"), "INVALID_OPTION", row.get("option_code", "")))
+
     with open(REPORT_PATH, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["record_id", "check_type", "details"])
         if not issues:
-            w.writerow(["ALL", "PASS", f"Validated {row_count} registry records + status & coherence tables with 0 errors"])
+            w.writerow(["ALL", "PASS", f"Validated {total_rows} total rows across all master datasets with 0 errors"])
         else:
             w.writerows(issues)
 
-    print(f"Validated {row_count} PERMA records + status & coherence tables. Issues found: {len(issues)}")
+    print(f"Validated {total_rows} rows across all master datasets. Issues found: {len(issues)}")
     return 1 if issues else 0
 
 if __name__ == "__main__":

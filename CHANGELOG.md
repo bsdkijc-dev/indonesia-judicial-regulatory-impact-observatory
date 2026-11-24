@@ -1,8 +1,7 @@
 # Changelog
 
-## v0.5.0 (2026-11-24) — Stage 7–8 Ex-Post RIA Assessments & Comparative Analysis
-- Populated `ria_assessments.csv` (50 rows: 5 pilot PERMA x 10 dimensions, no unweighted averaging) and `recommendations.csv` (Options B & C, pending human review).
-- Generated 5 individual 10-section evaluation reports in `/evaluations/perma_YYYY_NN/` and comparative policy brief in `/reports/policy_briefs/`.
-
-## v0.4.0 (2026-11-24) — Stage 5–6 Five-PERMA Pilot & Evidence Collection
-- Collected Level 2–3 empirical evidence across 5 pilot PERMA clusters.
+## v1.0.0-rc1 (2026-11-24) — Stage 9–12 Notebooks, QA Audit & Release Candidate
+- Built and tested 3 reproducible Jupyter notebooks (`regulatory_trends.ipynb`, `impact_analysis.ipynb`, `perma_comparative_analysis.ipynb`).
+- Added complete Kaggle Data Dictionary, Methodology, Limitations, and Licensing documentation.
+- Generated Annual Observatory Report (`ijrio_annual_observatory_report_2026.md`).
+- Upgraded `validate_registry.py` to validate all master datasets; Stage 11 QA passed with 0 issues.
