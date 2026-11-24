@@ -1,8 +1,8 @@
 # Changelog
 
-## v1.2.0 (2026-11-24) — Archival Batch 2 (Hak Uji Materiil 1993–2011 & 2012–2014 Landmarks)
-- Expanded `perma_registry.csv` & `.jsonl` from 67 to 74 records (adding `PERMA 1/1993`, `1/1999`, `1/2004`, `1/2011`, `1/2012`, `2/2012`, `4/2014`).
-- Added 3 coherence assessments to `legal_coherence.csv` (27 total).
+## v1.3.0 (2026-11-24) — Archival Batch 3 (Complete 2016 14/14 Set & PERMA 3/2005)
+- Expanded `perma_registry.csv` & `.jsonl` from 74 to 85 records (1980–2025), completing all 14/14 PERMA of 2016 and adding `PERMA 3/2005`, `2/2013`, `3/2014`, `3/2015`, `4/2015`.
+- Added 2 coherence assessments to `legal_coherence.csv` (29 total).
 
-## v1.1.0 (2026-11-24) — Pre-2008 Archival PERMA Expansion (1980–2025)
-- Expanded registry to 67 records.
+## v1.2.0 (2026-11-24) — Archival Batch 2 (HUM Chain 1993–2011 & 2012–2014)
+- Expanded registry to 74 records.
