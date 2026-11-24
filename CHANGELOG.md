@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.12.0 (2026-11-24) — Cluster 10 Ex-Post RIA (`PERMA 1/2024` Restorative Justice)
+- Added Cluster 10 (`PERMA_2024_01`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_091`–`RIA_100`), `OPTION C — AMEND` recommendation (`REC_010`), and `evaluations/perma_2024_01/evaluation_report.md`.
+- Added 4 verified Level 2–3 sources (`SRC_036`–`SRC_039`), including Kepaniteraan MA Feb 2026 audit (3,353 RJ cases in 2025; 2.80% Pasal 21 citation compliance) and Lex Renaissance (Jun 2026) KUHAP 2025 analysis.
+
 ## v1.11.0 (2026-11-24) — Cluster 9 Ex-Post RIA (`PERMA 1/2002` Class Action)
 - Added Cluster 9 (`PERMA_2002_01`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_081`–`RIA_090`), `OPTION C — AMEND` recommendation (`REC_009`), and `evaluations/perma_2002_01/evaluation_report.md`.
 - Added 4 verified Level 2–3 sources (`SRC_032`–`SRC_035`), including Badilum Service Standards, Jurnal Hukum dan Peradilan (MA RI), Ranah Research (2024), and Jurnal Seikat (Oct 2026).
