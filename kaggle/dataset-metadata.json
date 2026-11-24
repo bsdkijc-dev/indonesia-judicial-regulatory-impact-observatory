@@ -14,6 +14,6 @@
     "regulatory-impact-assessment",
     "open-justice"
   ],
-  "isPrivate": true,
+  "isPrivate": false,
   "description": "Independent, source-grounded regulatory inventory and legal status dataset of Peraturan Mahkamah Agung RI (PERMA). Not an official Mahkamah Agung RI database."
 }

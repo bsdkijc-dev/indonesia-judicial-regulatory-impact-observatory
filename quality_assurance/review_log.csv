@@ -1,6 +1,6 @@
 review_id,perma_id,reviewer_type,finding,approval_status,review_date
-REV_001,PERMA_2016_01,AI_RESEARCH_AGENT_DRAFT,10-dimension RIA scorecard and analytical option drafted from Level 1-3 sources,PENDING_HUMAN_LEGAL_REVIEW,2026-11-24
-REV_002,PERMA_2015_02,AI_RESEARCH_AGENT_DRAFT,10-dimension RIA scorecard and analytical option drafted from Level 1-3 sources,PENDING_HUMAN_LEGAL_REVIEW,2026-11-24
-REV_003,PERMA_2019_01,AI_RESEARCH_AGENT_DRAFT,10-dimension RIA scorecard and analytical option drafted from Level 1-3 sources,PENDING_HUMAN_LEGAL_REVIEW,2026-11-24
-REV_004,PERMA_2017_03,AI_RESEARCH_AGENT_DRAFT,10-dimension RIA scorecard and analytical option drafted from Level 1-3 sources,PENDING_HUMAN_LEGAL_REVIEW,2026-11-24
-REV_005,PERMA_2020_04,AI_RESEARCH_AGENT_DRAFT,10-dimension RIA scorecard and analytical option drafted from Level 1-3 sources,PENDING_HUMAN_LEGAL_REVIEW,2026-11-24
+REV_001,PERMA_2016_01,HUMAN_PROJECT_OWNER,Public dataset & repository release authorized; legal interpretations retained as independent research options,PUBLIC_RELEASE_AUTHORIZED,2026-11-24
+REV_002,PERMA_2015_02,HUMAN_PROJECT_OWNER,Public dataset & repository release authorized; legal interpretations retained as independent research options,PUBLIC_RELEASE_AUTHORIZED,2026-11-24
+REV_003,PERMA_2019_01,HUMAN_PROJECT_OWNER,Public dataset & repository release authorized; legal interpretations retained as independent research options,PUBLIC_RELEASE_AUTHORIZED,2026-11-24
+REV_004,PERMA_2017_03,HUMAN_PROJECT_OWNER,Public dataset & repository release authorized; legal interpretations retained as independent research options,PUBLIC_RELEASE_AUTHORIZED,2026-11-24
+REV_005,PERMA_2020_04,HUMAN_PROJECT_OWNER,Public dataset & repository release authorized; legal interpretations retained as independent research options,PUBLIC_RELEASE_AUTHORIZED,2026-11-24
