@@ -1,0 +1,51 @@
+assessment_id,perma_id,dimension_code,dimension_name,score_1_to_5_or_NA,evidence_status,data_limitations,reviewer_comments,assessment_date
+RIA_001,PERMA_2016_01,D01,Problem relevance,5,VERIFIED,Pre-2016 civil backlog and low mediation yield well documented.,Directly addresses core civil docket congestion.,2026-11-24
+RIA_002,PERMA_2016_01,D02,Regulatory coherence,4,VERIFIED,"Consistent with UU 48/2009, HIR/RBg, and supplemented by PERMA 3/2022.",Digital signature fallback retained in PERMA 3/2022.,2026-11-24
+RIA_003,PERMA_2016_01,D03,Design quality,4,VERIFIED,"Good-faith rules, 30+30 day window, and Akta Perdamaian clearly structured.",Lacks explicit quantitative success targets in text.,2026-11-24
+RIA_004,PERMA_2016_01,D04,Implementation effectiveness,3,VERIFIED,"Integrated in SOPs via SK KMA 108/2016, but uneven mediator certification.",PA Lebong & PN Palembang studies show operational friction.,2026-11-24
+RIA_005,PERMA_2016_01,D05,Institutional efficiency,3,VERIFIED,National +28% growth vs 14% local success in PN Palembang (2017–2019).,Descriptive trend only; no causal counterfactual.,2026-11-24
+RIA_006,PERMA_2016_01,D06,Access-to-justice outcomes,4,VERIFIED,Preserves party relationships and lowers costs when settlement succeeds.,Non-attendance by parties remains a barrier.,2026-11-24
+RIA_007,PERMA_2016_01,D07,Stakeholder impact,3,VERIFIED,Mixed for judges (caseload vs mediator duty); positive for settling litigants.,Certified judge-mediator shortage strains dockets.,2026-11-24
+RIA_008,PERMA_2016_01,D08,Evidence of outcomes,3,VERIFIED,National YoY trend + local case studies available; lacks national panel series.,No quasi-experimental attribution yet.,2026-11-24
+RIA_009,PERMA_2016_01,D09,Unintended consequences,3,VERIFIED,Pro-forma attendance solely to avoid bad-faith sanctions observed.,Moderate unintended delay risk.,2026-11-24
+RIA_010,PERMA_2016_01,D10,Regulatory sustainability,4,VERIFIED,Remains relevant and modernized via PERMA 3/2022 electronic mediation.,Retain with mediator-capacity and scheduling reforms.,2026-11-24
+RIA_011,PERMA_2015_02,D01,Problem relevance,5,VERIFIED,Addresses cost/time barriers of ordinary civil litigation for small claims.,Highly relevant to UMKM and consumers.,2026-11-24
+RIA_012,PERMA_2015_02,D02,Regulatory coherence,4,VERIFIED,Consistent with UU 48/2009 and integrated with PERMA 1/2019 e-Court.,Physical attendance vs e-Court hybrid needs clarity.,2026-11-24
+RIA_013,PERMA_2015_02,D03,Design quality,4,VERIFIED,"Clear 25-day SLA, single-judge model, and Rp500M threshold.",Same-domicile and direct-attendance rules create friction.,2026-11-24
+RIA_014,PERMA_2015_02,D04,Implementation effectiveness,3,VERIFIED,"Operationalized nationally, but outreach relied mainly on court brochures.",Urban study shows UMKM awareness gap.,2026-11-24
+RIA_015,PERMA_2015_02,D05,Institutional efficiency,4,VERIFIED,+68% growth in <Rp500M civil dispute resolution reported in 2025.,Descriptive trend; SLA compliance rate not yet audited.,2026-11-24
+RIA_016,PERMA_2015_02,D06,Access-to-justice outcomes,4,VERIFIED,No mandatory advocate and capped procedure lower barriers.,Out-of-district plaintiffs still face representation friction.,2026-11-24
+RIA_017,PERMA_2015_02,D07,Stakeholder impact,3,VERIFIED,Benefits UMKM/consumers when aware; limited by literacy gap.,Requires community & UMKM association outreach.,2026-11-24
+RIA_018,PERMA_2015_02,D08,Evidence of outcomes,3,VERIFIED,National growth figure available; lacks court-level duration distribution.,No causal attribution design yet.,2026-11-24
+RIA_019,PERMA_2015_02,D09,Unintended consequences,3,VERIFIED,Out-of-district plaintiffs incur local representative costs.,Moderate cost-transfer risk.,2026-11-24
+RIA_020,PERMA_2015_02,D10,Regulatory sustainability,4,VERIFIED,Core fast-track civil pillar; targeted procedural amendments justified.,Clarify remote/hybrid attendance rules.,2026-11-24
+RIA_021,PERMA_2019_01,D01,Problem relevance,5,VERIFIED,"Directly targets geographic, paper, and summons delays across Indonesia.",Core SPBE judicial modernization pillar.,2026-11-24
+RIA_022,PERMA_2019_01,D02,Regulatory coherence,4,VERIFIED,Repealed PERMA 3/2018 cleanly; amended by PERMA 7/2022.,Needs technical alignment with UU 27/2022 (PDP).,2026-11-24
+RIA_023,PERMA_2019_01,D03,Design quality,5,VERIFIED,"Comprehensive e-Filing, e-Payment, e-Summons, and e-Litigation architecture.",PERMA 7/2022 resolved defendant-consent bottleneck.,2026-11-24
+RIA_024,PERMA_2019_01,D04,Implementation effectiveness,4,VERIFIED,99.65% PN adoption (2023) vs 30.78% PA adoption; local admin shortages.,Significant tier/regional asymmetry.,2026-11-24
+RIA_025,PERMA_2019_01,D05,Institutional efficiency,5,VERIFIED,"186,987 cases (2020) -> 99.65% PN (2023) -> +30.84% YoY (2025).",Strongest quantitative adoption evidence in pilot.,2026-11-24
+RIA_026,PERMA_2019_01,D06,Access-to-justice outcomes,4,VERIFIED,"Reduces travel and filing costs; 36,007 advocates + 83,332 other users by 2020.",Digital divide affects non-advocate/rural litigants.,2026-11-24
+RIA_027,PERMA_2019_01,D07,Stakeholder impact,4,VERIFIED,Strong gains for advocates/litigants; mixed workload for regional court admins.,Admin staffing needs reinforcement.,2026-11-24
+RIA_028,PERMA_2019_01,D08,Evidence of outcomes,4,VERIFIED,"Multi-year LAPTAH series (2020, 2022, 2023, 2025) verified.",Descriptive series; causal cost-per-case study needed.,2026-11-24
+RIA_029,PERMA_2019_01,D09,Unintended consequences,3,VERIFIED,Early gap between filing (e-Court) and trial completion (4.58% e-Litigation in 2020).,PA/regional digital divide persists.,2026-11-24
+RIA_030,PERMA_2019_01,D10,Regulatory sustainability,5,VERIFIED,Foundational digital court infrastructure; high long-term sustainability.,Align retention rules with UU PDP.,2026-11-24
+RIA_031,PERMA_2017_03,D01,Problem relevance,5,VERIFIED,Addresses gender bias and secondary victimization in courtrooms.,High social and constitutional relevance.,2026-11-24
+RIA_032,PERMA_2017_03,D02,Regulatory coherence,4,VERIFIED,Aligned with UU 7/1984 (CEDAW) and UU 48/2009.,Should be harmonized with subsequent UU 12/2022 (TPKS).,2026-11-24
+RIA_033,PERMA_2017_03,D03,Design quality,4,VERIFIED,Clear non-discrimination principles and examination prohibitions.,Lacks measurable compliance indicators in text.,2026-11-24
+RIA_034,PERMA_2017_03,D04,Implementation effectiveness,3,VERIFIED,Training modules issued by Badilag/Kepaniteraan; uneven 5-province uptake.,IJRS/Komnas Perempuan (2021/2023) documents gaps.,2026-11-24
+RIA_035,PERMA_2017_03,D05,Institutional efficiency,NOT ASSESSED,NOT_AVAILABLE,Insufficient quantitative data on case-processing speed or administrative efficiency.,Do not infer negative efficiency without data.,2026-11-24
+RIA_036,PERMA_2017_03,D06,Access-to-justice outcomes,4,VERIFIED,Strengthens victim/witness dignity and companion (pendamping) recognition.,Dependent on individual judge awareness.,2026-11-24
+RIA_037,PERMA_2017_03,D07,Stakeholder impact,4,VERIFIED,Positive protections for women litigants and legal aid companions.,Requires consistent judicial enforcement.,2026-11-24
+RIA_038,PERMA_2017_03,D08,Evidence of outcomes,2,PARTIALLY_VERIFIED,Qualitative 5-province IJRS study available; lacks national quantitative outcome metrics.,National monitoring dataset needed.,2026-11-24
+RIA_039,PERMA_2017_03,D09,Unintended consequences,NOT ASSESSED,NOT_AVAILABLE,Insufficient empirical evidence on unintended institutional burdens.,Marked NOT ASSESSED per Section 7/9 rule.,2026-11-24
+RIA_040,PERMA_2017_03,D10,Regulatory sustainability,4,VERIFIED,Remains essential; complements PERMA 2/2025 (Disability).,Retain with stronger judicial training & M&E.,2026-11-24
+RIA_041,PERMA_2020_04,D01,Problem relevance,5,VERIFIED,Solved pandemic trial paralysis and fragmented paper criminal administration.,Critical continuity & modernization need.,2026-11-24
+RIA_042,PERMA_2020_04,D02,Regulatory coherence,3,VERIFIED,Consistent with UU 8/1981 at enactment; now faces UU 20/2025 (new KUHAP) shift.,Urgent statutory coherence update required.,2026-11-24
+RIA_043,PERMA_2020_04,D03,Design quality,4,VERIFIED,PERMA 8/2022 & SK KMA 365/2022 fixed registered-user and warrant scope.,Includes 60-min IT disruption suspension safeguard.,2026-11-24
+RIA_044,PERMA_2020_04,D04,Implementation effectiveness,3,VERIFIED,"e-Berpadu operationalized across courts, police, prosecutors, and Rutan.",National adoption rate statistics not yet extracted.,2026-11-24
+RIA_045,PERMA_2020_04,D05,Institutional efficiency,NOT ASSESSED,NOT_AVAILABLE,Insufficient quantitative criminal-case turnaround data retrieved in Stage 5–6.,Marked NOT ASSESSED per Section 7/9 rule.,2026-11-24
+RIA_046,PERMA_2020_04,D06,Access-to-justice outcomes,3,VERIFIED,"Enables electronic pre-trial, diversion, and restitution/compensation filings.",Remote defendant defense-counsel access needs audit.,2026-11-24
+RIA_047,PERMA_2020_04,D07,Stakeholder impact,4,VERIFIED,"Streamlines interagency workflows for police, prosecutors, Rutan, and courts.",Requires continuous IT reliability.,2026-11-24
+RIA_048,PERMA_2020_04,D08,Evidence of outcomes,NOT ASSESSED,NOT_AVAILABLE,National e-Berpadu quantitative outcome metrics not yet retrieved.,Marked NOT ASSESSED per Section 7/9 rule.,2026-11-24
+RIA_049,PERMA_2020_04,D09,Unintended consequences,3,VERIFIED,IT/network disruptions (>60 min) can delay detention-sensitive hearings.,Parallel manual verification burden noted.,2026-11-24
+RIA_050,PERMA_2020_04,D10,Regulatory sustainability,3,VERIFIED,"Core digital criminal platform, but sustainability depends on KUHAP 20/2025 alignment.",Amend to align with UU 20/2025.,2026-11-24
