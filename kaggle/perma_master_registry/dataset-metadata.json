@@ -1,0 +1,19 @@
+{
+  "title": "Indonesia Judicial Regulatory Impact Observatory (IJRIO) \u2014 PERMA Registry",
+  "id": "ijrio/perma-master-registry",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "indonesia",
+    "supreme-court",
+    "mahkamah-agung",
+    "perma",
+    "regulatory-impact-assessment",
+    "open-justice"
+  ],
+  "isPrivate": true,
+  "description": "Independent, source-grounded regulatory inventory and legal status dataset of Peraturan Mahkamah Agung RI (PERMA). Not an official Mahkamah Agung RI database."
+}

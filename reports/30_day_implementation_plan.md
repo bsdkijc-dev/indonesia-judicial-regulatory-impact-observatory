@@ -1,0 +1,10 @@
+# IJRIO v1.0 — 30-Day Implementation Plan
+
+| Days | Stage | Key Deliverables & Activities | Exit Criteria |
+| :--- | :--- | :--- | :--- |
+| **Days 1–5** | **Stage 1–2: Full PERMA Inventory & Source Verification** | Systematically harvest PERMA metadata from `peraturan.bpk.go.id`, `peraturan.go.id`, and `jdih.mahkamahagung.go.id` (2008–2025 core digital era, plus pre-2008 archival scan). | Complete `perma_registry.csv` with deduplication and 100% Level-1 URLs. |
+| **Days 6–10** | **Stage 3: Legal Status & Amendment Tracking** | Map all `Mengubah`, `Mencabut`, `Diubah dengan`, and `Dicabut dengan` chains; populate `perma_legal_status.csv` and `legal_coherence.csv` (including KUHP 1/2023 & KUHAP 20/2025 checks). | Zero unresolved status conflicts; validation suite passes. |
+| **Days 11–16** | **Stage 4–6: Pilot Selection & Evidence Collection** | Finalize the 5-PERMA pilot (`PERMA 1/2016` jo. `3/2022`; `PERMA 2/2015` jo. `4/2019`; `PERMA 1/2019` jo. `7/2022`; `PERMA 3/2017`; `PERMA 4/2020` jo. `8/2022`); collect Level 2 (LAPTAH, Badilum, SIPP/e-Court) & Level 3 academic evidence. | Populated `implementation_evidence.csv` and `impact_indicators.csv` for all 5 pilot PERMA. |
+| **Days 17–22** | **Stage 7–8: Ex-Post RIA & Comparative Scorecard** | Execute 10-dimension Ex-post RIA, causal-attribution audit, and 1–5/`NOT ASSESSED` scorecard for each of the 5 pilot PERMA; draft policy briefs. | Completed evaluations in `/evaluations/perma_YYYY_NN/` and comparative matrix. |
+| **Days 23–26** | **Stage 9–10: GitHub & Kaggle Packaging** | Finalize reproducible notebooks, data dictionaries, licensing assessments, and private Kaggle dataset packages. | All scripts and notebooks run end-to-end with zero errors. |
+| **Days 27–30** | **Stage 11–12: QA & Human Approval Gate** | Run automated QA (`validate_registry.py`, `validate_sources.py`), conduct human legal review of interpretations, and submit release package for explicit human approval. | Human sign-off obtained prior to any public release. |
