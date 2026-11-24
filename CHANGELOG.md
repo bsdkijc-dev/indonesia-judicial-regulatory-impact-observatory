@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.10.0 (2026-11-24) — Cluster 8 Ex-Post RIA (`PERMA 1/2023` Environmental Adjudication)
+- Added Cluster 8 (`PERMA_2023_01`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_071`–`RIA_080`), `COH_035`, `OPTION B` recommendation (`REC_008`), and `evaluations/perma_2023_01/evaluation_report.md`.
+- Added 5 verified Level 1–3 sources (`SRC_027`–`SRC_031`), including MA–ICEL socialization, Dandapala SIPP guide, JHLI (2025), JLASS (2026), and Putusan MK 119/PUU-XXIII/2025.
+
 ## v1.9.0 (2026-11-24) — Cluster 7 Ex-Post RIA (`PERMA 13/2016` Corporate Criminal Liability)
 - Added Cluster 7 (`PERMA_2016_13`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_061`–`RIA_070`), `OPTION C — AMEND` recommendation (`REC_007`), and `evaluations/perma_2016_13/evaluation_report.md`.
 - Added 5 verified Level 2–3 sources (`SRC_022`–`SRC_026`), including MA Pustrajak FGD, Dandapala Oct 2026 Raperma coverage, BPHN Rechtsvinding, and peer-reviewed corporate-liability studies.
