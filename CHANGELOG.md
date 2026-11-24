@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.13.0 (2026-11-24) — Cluster 11 Ex-Post RIA (`PERMA 2/2025` Disability Access)
+- Added Cluster 11 (`PERMA_2025_02`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_101`–`RIA_110`), `OPTION A — RETAIN` recommendation (`REC_011`), and `evaluations/perma_2025_02/evaluation_report.md`.
+- Backfilled `PERMA_2025_02` promulgation date (`2025-10-20`) and `BN 2025 (844)` in `perma_registry.csv` & `.jsonl`, and added 3 verified Level 2–3 sources (`SRC_040`–`SRC_042`).
+
 ## v1.12.0 (2026-11-24) — Cluster 10 Ex-Post RIA (`PERMA 1/2024` Restorative Justice)
 - Added Cluster 10 (`PERMA_2024_01`) Ex-Post RIA evaluation, 10 scorecard dimensions (`RIA_091`–`RIA_100`), `OPTION C — AMEND` recommendation (`REC_010`), and `evaluations/perma_2024_01/evaluation_report.md`.
 - Added 4 verified Level 2–3 sources (`SRC_036`–`SRC_039`), including Kepaniteraan MA Feb 2026 audit (3,353 RJ cases in 2025; 2.80% Pasal 21 citation compliance) and Lex Renaissance (Jun 2026) KUHAP 2025 analysis.
