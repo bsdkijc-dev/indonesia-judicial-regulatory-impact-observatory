@@ -1,8 +1,8 @@
 # Changelog
 
-## v1.5.0 (2026-11-24) — Cross-100 PERMA Milestone (102 Records, 1980–2025)
-- Expanded `perma_registry.csv` & `.jsonl` from 96 to 102 records (`PERMA 1/2006`, `1/2007`, `2/2008`, `5/2012`, `5/2014`, `9/2017`).
-- Added `JDIH Komisi Yudisial RI` (`SRC_016`) to `source_registry.csv` (16 sources) and 2 entries to `legal_coherence.csv` (34 total).
+## v1.6.0 (2026-11-24) — Archival Batch 4 (105 PERMA Records, 1980–2025)
+- Expanded `perma_registry.csv` & `.jsonl` from 102 to 105 records, adding `PERMA 1/2001` (TMS Cassation), `PERMA 2/2002` (Transitional MK Authority), and `PERMA 1/2003` (completing the 4-generation KPPU objection chain `1/2003 -> 3/2005 -> 3/2019 -> 3/2021`).
+- Upgraded `PERMA_2024_01` to `VERIFIED` (`2024-05-07`).
 
-## v1.4.0 (2026-11-24) — Modern Era Gap-Fill Expansion (96 Records)
-- Completed consecutive coverage for 2016, 2018, 2019, 2020, 2021, and 2022.
+## v1.5.0 (2026-11-24) — Cross-100 PERMA Milestone (102 Records)
+- Crossed 100 PERMA records with `1/2006`, `1/2007`, `2/2008`, `5/2012`, `5/2014`, `9/2017`.
